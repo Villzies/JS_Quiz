@@ -33,6 +33,7 @@ THEN I can save my initials and score
 - ![](https://img.shields.io/badge/Bulma%20v0.9.4-white?logo=Bulma)
 
 ##Screenshots
+
 Default Page ![image](https://github.com/Villzies/JS_Quiz_Redeux/assets/135443479/467dc53c-c3e7-4a24-92e0-4acd5920e275)
 
 
