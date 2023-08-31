@@ -1,7 +1,20 @@
+html {
+    background-color: #4b8bd4;
+    background-image: url('/assets/wasteland.jpg');
+}
+
+.title {
+    color: aliceblue;
+}
+
 #quizlist {
     display: none
 }
 
 #next {
     display: none
+}
+
+footer {
+    margin-top: 20px;
 }

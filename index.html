@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link rel="stylesheet" href="./assets/style.css" />
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/style.css" />
         <title>Javascript Quiz: Redeux</title>
       </head>
 
 <body>
-<header>
-<p>Welcome to the Javascript Quiz! To begin the quiz click the "Start Quiz" button.</p>
+<header class="title">
+Javascript Quiz
 </header>
 
-<card id="quizcontainer">
+<section class="columns is-responsive is-centered">
+<div class="card column is-3 m-auto is-responsive" id="quizcontainer">
+    <p id="intro">Welcome to the Javascript Quiz! To begin the quiz click the "Start Quiz" button.</p>
+    <p id="timer"></p>
     <p id="question"></p>
 <ul id="quizlist">
     <li id="choice1"></li>
     <li id="choice2"></li>
 </ul>
 
-<button id="start">Start Quiz</button>
-<button id="next">Next Question</button>
-</card>
+<footer>
+<button class="button card-footer-item is-medium is-responsive is-relative is-clickable" id="start">Start Quiz</button>
+<button class="button card-footer-item is-medium is-responsive is-relative is-clickable" id="next">Next Question</button>
+</footer>
+</div>
+</section>
 
 <script src=script.js></script>
 </body>
