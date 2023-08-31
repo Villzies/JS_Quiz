@@ -26,8 +26,8 @@ const quizquestions = [
 
     {question: "Which is a Javascript data type?",
       answers: {
-        a: 'Boolean',
-        b: 'Function',
+        a: 'A: Boolean',
+        b: 'B: Function',
       }
 }
 ];
