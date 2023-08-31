@@ -1,6 +1,6 @@
 html {
     background-color: #4b8bd4;
-    background-image: url('/assets/wasteland.jpg');
+    background-image: url('./wasteland.jpg');
 }
 
 .title {
