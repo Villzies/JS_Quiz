@@ -40,6 +40,8 @@ Sample Question Page ![image](https://github.com/Villzies/JS_Quiz_Redeux/assets/
 
 ##Deployed Webpage
 
+https://villzies.github.io/JS_Quiz/
+
 ##Repository
 
 https://github.com/Villzies
